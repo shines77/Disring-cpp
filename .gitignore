@@ -9,7 +9,15 @@
 /config.status
 /configure
 
-/lib/
+# For text file
+!ReadMe.txt
+!readme.txt
+!CMakeLists.txt
+!cmakelists.txt
+# *.txt
+
+!/lib/ReadMe.txt
+/lib/*/
 
 # /Makefile
 
@@ -130,13 +138,6 @@ UpgradeLog.htm
 
 # For log file
 *.log
-
-# For text file
-!ReadMe.txt
-!readme.txt
-!CMakeLists.txt
-!cmakelists.txt
-# *.txt
 
 # For Intel C++ Compiler Log File & Project File
 IcUpdateLog.htm
