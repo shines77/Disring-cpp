@@ -1,13 +1,153 @@
+### These files should get ignored no matter where they appear.
+
+# Ignore Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Ignore Compiled Dynamic libraries
+*.so
+*.dll
+*.dylib
+
+# Ignore Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Ignore Executables
+*.exe
+*.out
+*.app
+
+# Editors leave these lying around
+\#*\#
+.#*
+*~
+*.swp
+
+# Ignore thumbnails created by Windows
+Thumbs.db
+
+# Ignore some files on Windows
+.DS_Store*
+ehthumbs.db
+Icon?
+
+# Ignore files build by Visual Studio
+*.obj
+*.pdb
+*.dep
+*.user
+*.ncb
+*.aps
+*.pch
+*.vspscc
+*.idb
+*.ilk
+*.tlb
+*.tlh
+*.tli
+*.tmp
+*.sbr
+*.rsp
+*.pgc
+*.pgd
+*.suo
+*.sdf
+*.opensdf
+*.sln.old
+*.sln_old
+*.meta
+*.manifest
+*.intermediate.manifest
+
+# *.vcxproj.user
+# *_i.c
+# *_p.c
+
+/[Bb]in/
+/[Dd]ebug/
+/[Rr]elease/
+/x86-[Dd]ebug/
+/x86-[Rr]elease/
+/x64-[Dd]ebug/
+/x64-[Rr]elease/
+!/deps/
+
+# Ignore Visual Studio update files
+UpgradeLog.XML
+UpgradeLog.htm
+/[Bb]ackup/
+
+# Ignore CodeBlocks project layout/depend files
+*.layout
+*.depend
+
+# Ignore obj file in GCC
+*.pic.d
+*.jet.d
+
+# Ignore stackdump file on Linux
+*.stackdump
+
+# For log file
+*.log
+
+# Ignore Intel C++ Compiler Log File & Project Files
+IcUpdateLog.htm
+*.icproj
+
+# Ignore AStyle backup files
+*.orig
+
+# Ignore Code::Blocks backup files
+*.sav
+
+# Ignore Sublime Text 2 dump files
+*.dump
+
+# Ignore tmp and obj files
+/[Oo]bj/
+/[Gg]en/
+/tmp/
+/temp/
+!/[Bb]uild/ReadMe.txt
+/[Bb]uild/*/
+
+# Ignore Visual Studio 2013 temp files on Windows
+*.tlog
+
+# Ignore Visual Studio C# files on Windows
+*.cache
+
+# Ignore Zip or Rar files
+*.zip
+*.rar
+
+# Other files
+/.metadata
+/169.254.0.1
+/ipch/
+# /cmake/
+/Simulator/
+/Simulator-Coverage/
+/Simulator-Profile/
+/Device-Debug/
+/Device-Coverage/
+/Device-Profile/
+/Device-Release/
+
 /*.gcov.*
 
 /autom4te.cache/
 
-# /bin/jemalloc.sh
-
 /config.stamp
 /config.log
 /config.status
-/configure
+# /configure
 
 # For text file
 !ReadMe.txt
@@ -28,163 +168,4 @@
 /src/*.gcda
 /src/*.gcno
 
-# /test/test.sh
-test/include/test/jemalloc_test.h
-test/include/test/jemalloc_test_defs.h
-
-/test/integration/[A-Za-z]*
-!/test/integration/[A-Za-z]*.*
-/test/integration/*.[od]
-/test/integration/*.gcda
-/test/integration/*.gcno
-/test/integration/*.out
-
-/test/src/*.[od]
-/test/src/*.gcda
-/test/src/*.gcno
-
-/test/stress/[A-Za-z]*
-!/test/stress/[A-Za-z]*.*
-/test/stress/*.[od]
-/test/stress/*.gcda
-/test/stress/*.gcno
-/test/stress/*.out
-
-/test/unit/[A-Za-z]*
-!/test/unit/[A-Za-z]*.*
-/test/unit/*.[od]
-/test/unit/*.gcda
-/test/unit/*.gcno
-/test/unit/*.out
-
-/VERSION
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Editors leave these lying around
-\#*\#
-.#*
-*~
-*.swp
-
-# For Visual Studio files on Windows
-*.user
-*.ncb
-*.aps
-*.idb
-*.pdb
-*.dep
-*.obj
-*.ilk
-*.tlb
-*.tli
-*.tlh
-*.tmp
-*.rsp
-*.pgc
-*.pgd
-*.meta
-*.manifest
-*.intermediate.manifest
-*.suo
-*.sdf
-*.opensdf
-*.sln.old
-*.sln_old
-# *.vcxproj.user
-/Debug/
-/Release/
-/x86-Debug/
-/x86-Release/
-/x64-Debug/
-/x64-Release/
-!/deps/
-
-# For Visual Studio Update File
-UpgradeLog.XML
-UpgradeLog.htm
-/Backup/
-
-# For CodeBlocks project files
-*.layout
-*.depend
-
-# For obj file in GCC
-*.pic.d
-*.jet.d
-
-# For stackdump file on Linux
-*.stackdump
-
-# For log file
-*.log
-
-# For Intel C++ Compiler Log File & Project File
-IcUpdateLog.htm
-*.icproj
-
-# For AStyle backup file
-*.orig
-
-# For Code::Blocks backup file
-*.sav
-
-# For Sublime Text 2 dump file
-*.dump
-
-# tmp and obj files
-/obj/
-/gen/
-/tmp/
-/temp/
-!/build/ReadMe.txt
-/build/*/
-
-# For Visual Studio 2013 temp files on Windows
-*.tlog
-
-# For Visual Studio C# files on Windows
-*.cache
-
-# Zip or Rar files
-*.zip
-*.rar
-
-# Some files on Windows
-.DS_Store*
-ehthumbs.db
-Icon?
-Thumbs.db
-
-# Other files
-/.metadata
-/169.254.0.1
-/ipch/
-# /cmake/
-/Simulator/
-/Simulator-Coverage/
-/Simulator-Profile/
-/Device-Debug/
-/Device-Coverage/
-/Device-Profile/
-/Device-Release/
+# /VERSION

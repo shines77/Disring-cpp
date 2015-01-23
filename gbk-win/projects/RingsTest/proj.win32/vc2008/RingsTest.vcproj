@@ -62,7 +62,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="&quot;..\..\..\..\lib\vc2008\x86-$(ConfigurationName)&quot;;..\..\..\..\lib;..\..\..\..\deps;&quot;$(SolutionDir)lib\vc2008\x86-$(ConfigurationName)&quot;;&quot;$(SolutionDir)lib&quot;;&quot;$(SolutionDir)deps&quot;;&quot;.\lib\vc2008\x86-$(ConfigurationName)&quot;;.\lib;.\deps;&quot;$(ProjectDir)lib\vc2008\x86-$(ConfigurationName)&quot;;&quot;$(ProjectDir)lib&quot;;&quot;$(ProjectDir)deps&quot;"
+				AdditionalLibraryDirectories="..\..\..\..\lib\vc2008\x86;..\..\..\..\lib;..\..\..\..\deps;&quot;$(SolutionDir)lib\vc2008\x86&quot;;&quot;$(SolutionDir)lib&quot;;&quot;$(SolutionDir)deps&quot;;.\lib\vc2008\x86;.\lib;.\deps;&quot;$(ProjectDir)lib\vc2008\x86&quot;;&quot;$(ProjectDir)lib&quot;;&quot;$(ProjectDir)deps&quot;"
 				GenerateDebugInformation="true"
 				SubSystem="1"
 				TargetMachine="1"
@@ -136,7 +136,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="&quot;..\..\..\..\lib\vc2008\x86-$(ConfigurationName)&quot;;..\..\..\..\lib;..\..\..\..\deps;&quot;$(SolutionDir)lib\vc2008\x86-$(ConfigurationName)&quot;;&quot;$(SolutionDir)lib&quot;;&quot;$(SolutionDir)deps&quot;;&quot;.\lib\vc2008\x86-$(ConfigurationName)&quot;;.\lib;.\deps;&quot;$(ProjectDir)lib\vc2008\x86-$(ConfigurationName)&quot;;&quot;$(ProjectDir)lib&quot;;&quot;$(ProjectDir)deps&quot;"
+				AdditionalLibraryDirectories="..\..\..\..\lib\vc2008\x86;..\..\..\..\lib;..\..\..\..\deps;&quot;$(SolutionDir)lib\vc2008\x86&quot;;&quot;$(SolutionDir)lib&quot;;&quot;$(SolutionDir)deps&quot;;.\lib\vc2008\x86;.\lib;.\deps;&quot;$(ProjectDir)lib\vc2008\x86&quot;;&quot;$(ProjectDir)lib&quot;;&quot;$(ProjectDir)deps&quot;"
 				GenerateDebugInformation="true"
 				SubSystem="1"
 				OptimizeReferences="2"

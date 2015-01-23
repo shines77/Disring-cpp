@@ -18,7 +18,7 @@
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
-			OutputDirectory="$(SolutionDir)lib\vc2008\x86-$(ConfigurationName)"
+			OutputDirectory="$(SolutionDir)lib\vc2008\x86"
 			IntermediateDirectory="$(SolutionDir)gen\tmp\vc2008\$(ProjectName)\x86-$(ConfigurationName)"
 			ConfigurationType="4"
 			CharacterSet="2"
@@ -61,8 +61,8 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="$(OutDir)\$(ProjectName)-$(ConfigurationName).lib"
-				AdditionalLibraryDirectories="&quot;..\..\..\..\lib\vc2008\x86-$(ConfigurationName)&quot;;..\..\..\..\lib;..\..\..\..\deps;&quot;$(SolutionDir)lib\vc2008\x86-$(ConfigurationName)&quot;;&quot;$(SolutionDir)lib&quot;;&quot;$(SolutionDir)deps&quot;;&quot;.\lib\vc2008\x86-$(ConfigurationName)&quot;;.\lib;.\deps;&quot;$(ProjectDir)lib\vc2008\x86-$(ConfigurationName)&quot;;&quot;$(ProjectDir)lib&quot;;&quot;$(ProjectDir)deps&quot;"
+				OutputFile="$(OutDir)\$(ProjectName)-$(PlatformName)-$(ConfigurationName).lib"
+				AdditionalLibraryDirectories="..\..\..\..\lib\vc2008\x86;..\..\..\..\lib;..\..\..\..\deps;&quot;$(SolutionDir)lib\vc2008\x86&quot;;&quot;$(SolutionDir)lib&quot;;&quot;$(SolutionDir)deps&quot;;.\lib\vc2008\x86;.\lib;.\deps;&quot;$(ProjectDir)lib\vc2008\x86&quot;;&quot;$(ProjectDir)lib&quot;;&quot;$(ProjectDir)deps&quot;"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -82,7 +82,7 @@
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
-			OutputDirectory="$(SolutionDir)lib\vc2008\x86-$(ConfigurationName)"
+			OutputDirectory="$(SolutionDir)lib\vc2008\x86"
 			IntermediateDirectory="$(SolutionDir)gen\tmp\vc2008\$(ProjectName)\x86-$(ConfigurationName)"
 			ConfigurationType="4"
 			CharacterSet="2"
@@ -126,8 +126,8 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="$(OutDir)\$(ProjectName)-$(ConfigurationName).lib"
-				AdditionalLibraryDirectories="&quot;..\..\..\..\lib\vc2008\x86-$(ConfigurationName)&quot;;..\..\..\..\lib;..\..\..\..\deps;&quot;$(SolutionDir)lib\vc2008\x86-$(ConfigurationName)&quot;;&quot;$(SolutionDir)lib&quot;;&quot;$(SolutionDir)deps&quot;;&quot;.\lib\vc2008\x86-$(ConfigurationName)&quot;;.\lib;.\deps;&quot;$(ProjectDir)lib\vc2008\x86-$(ConfigurationName)&quot;;&quot;$(ProjectDir)lib&quot;;&quot;$(ProjectDir)deps&quot;"
+				OutputFile="$(OutDir)\$(ProjectName)-$(PlatformName)-$(ConfigurationName).lib"
+				AdditionalLibraryDirectories="..\..\..\..\lib\vc2008\x86;..\..\..\..\lib;..\..\..\..\deps;&quot;$(SolutionDir)lib\vc2008\x86&quot;;&quot;$(SolutionDir)lib&quot;;&quot;$(SolutionDir)deps&quot;;.\lib\vc2008\x86;.\lib;.\deps;&quot;$(ProjectDir)lib\vc2008\x86&quot;;&quot;$(ProjectDir)lib&quot;;&quot;$(ProjectDir)deps&quot;"
 			/>
 			<Tool
 				Name="VCALinkTool"
