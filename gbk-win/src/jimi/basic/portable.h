@@ -155,7 +155,7 @@
 
 #if defined(_MSC_VER) || defined(__INTER_COMPILER) || defined(__ICC)
 
-#include "jimi/msvc/targetver.h"
+#include "jimi/basic/targetver.h"
 #ifndef WIN32_LEAN_AND_MEAN
 #define WIN32_LEAN_AND_MEAN
 #endif
@@ -321,7 +321,7 @@
 
 #if defined(_MSC_VER) || defined(__INTEL_COMPILER)  || defined(__ICC) \
  || defined(__MINGW32__) || defined(__CYGWIN__)
-#include "jimi/msvc/targetver.h"
+#include "jimi/basic/targetver.h"
 #ifndef WIN32_LEAN_AND_MEAN
 #define WIN32_LEAN_AND_MEAN
 #endif
