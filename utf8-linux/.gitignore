@@ -28,12 +28,12 @@
 *~
 *.swp
 
-# Ignore thumbnails created by Windows
+# Ignore thumbnails and icon cache files created by Windows
 Thumbs.db
+ehthumbs.db
 
 # Ignore some files on Windows
 .DS_Store*
-ehthumbs.db
 Icon?
 
 # Ignore files build by Visual Studio
@@ -76,6 +76,12 @@ Icon?
 /x64-[Dd]ebug/
 /x64-[Rr]elease/
 !/deps/
+
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
 
 # Ignore Visual Studio update files
 UpgradeLog.XML
