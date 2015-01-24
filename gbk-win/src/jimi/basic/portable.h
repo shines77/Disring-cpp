@@ -8,6 +8,7 @@
 
 #include "jimi/basic/stdint.h"
 #include "jimi/basic/stdbool.h"
+
 #include <emmintrin.h>
 
 #ifndef JIMI_CACHE_LINE_SIZE
